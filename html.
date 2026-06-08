@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo Forte e Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>🌱 Campo Forte e Sustentável</h1>
+        <p>Produção agrícola responsável para um futuro melhor.</p>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#artigos">Artigos</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+
+<section class="hero" id="inicio">
+    <div class="hero-content">
+        <h2>Agricultura Inteligente e Sustentável</h2>
+        <p>
+            Conheça práticas inovadoras que fortalecem o campo,
+            preservam recursos naturais e aumentam a produtividade.
+        </p>
+        <button id="btnSaibaMais">Saiba Mais</button>
+    </div>
+</section>
+
+<main class="container">
+
+    <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>
+            O Campo Forte e Sustentável promove técnicas agrícolas
+            modernas que equilibram produção, preservação ambiental
+            e desenvolvimento econômico das comunidades rurais.
+        </p>
+    </section>
+
+    <section id="artigos">
+        <h2>Últimos Artigos</h2>
+
+        <div class="cards">
+
+            <article class="card">
+                <h3>🌿 Agricultura Regenerativa</h3>
+                <p>
+                    Técnicas que recuperam a fertilidade do solo e
+                    aumentam a biodiversidade.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>💧 Uso Inteligente da Água</h3>
+                <p>
+                    Sistemas de irrigação eficientes para reduzir
+                    desperdícios e aumentar a produtividade.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>☀ Energia Renovável no Campo</h3>
+                <p>
+                    Como a energia solar está transformando
+                    propriedades rurais.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h2>Receba Novidades</h2>
+        <form id="newsletterForm">
+            <input type="email" id="email" placeholder="Seu e-mail" required>
+            <button type="submit">Inscrever-se</button>
+        </form>
+        <p id="mensagem"></p>
+    </section>
+
+</main>
+
+<footer id="contato">
+    <p>© 2025 Campo Forte e Sustentável | Todos os direitos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
